@@ -1,0 +1,15 @@
+src/
+├── main.rs
+├── routes/
+│   ├── mod.rs        # Defines and merges all routes
+│   ├── auth.rs       # Login & registration routes (requires PgPool)
+│   ├── protected.rs  # Protected routes (no PgPool needed)
+├── handlers/
+│   ├── mod.rs        # Exposes handlers
+│   ├── auth.rs       # Handles authentication
+├── services/
+│   ├── mod.rs        # Exposes services
+│   ├── auth.rs       # Business logic for auth
+├── middleware/
+│   ├── mod.rs        # Exposes middleware
+│   ├── auth.rs       # JWT authentication middleware

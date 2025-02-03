@@ -1,0 +1,5 @@
+/backend/target/
+/backend/config/
+/frontend/node_modules/
+*.env
+*.pem
