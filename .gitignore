@@ -1,5 +1,7 @@
 /backend/target/
 /backend/config/
+/bevy_tic_tac_toe/target/
+/bevy_tic_tac_toe/config/
 /frontend/node_modules/
 *.env
 *.pem
