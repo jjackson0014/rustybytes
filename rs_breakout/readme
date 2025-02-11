@@ -1,0 +1,1 @@
+wasm-bindgen --no-typescript --target web --out-dir ./out/ --out-name "test_game" ./target/wasm32-unknown-unknown/release/rs_breakout.wasm
