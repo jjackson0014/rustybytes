@@ -16,3 +16,6 @@ features = [
     "bevy_text",
     "bevy_ui",
 ]
+
+[profile.release]
+opt-level = 's'
